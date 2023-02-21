@@ -3,6 +3,7 @@ import 'package:first_app/pages/Scroll.dart';
 import 'package:first_app/pages/colomn.dart';
 import 'package:first_app/pages/home_page.dart';
 import 'package:first_app/pages/login_page.dart';
+import 'package:first_app/pages/List.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -26,6 +27,7 @@ class MyApp extends StatelessWidget {
         "/button":(context) => Button(),
         "/col":(context) => colomn(),
         "/scroll":(context)=>Scroll(),
+        "/list":(context) => List(),
       },
     );
   }
