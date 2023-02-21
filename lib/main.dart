@@ -1,4 +1,5 @@
 import 'package:first_app/pages/Button.dart';
+import 'package:first_app/pages/Decoration.dart';
 import 'package:first_app/pages/Scroll.dart';
 import 'package:first_app/pages/colomn.dart';
 import 'package:first_app/pages/home_page.dart';
@@ -28,6 +29,7 @@ class MyApp extends StatelessWidget {
         "/col":(context) => colomn(),
         "/scroll":(context)=>Scroll(),
         "/list":(context) => List(),
+        "/dec":(context) => DecorationContainer(),
       },
     );
   }
