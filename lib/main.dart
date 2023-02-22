@@ -1,5 +1,7 @@
 import 'package:first_app/pages/Button.dart';
 import 'package:first_app/pages/Decoration.dart';
+import 'package:first_app/pages/ExpendedWidget.dart';
+import 'package:first_app/pages/ListTil.dart';
 import 'package:first_app/pages/Scroll.dart';
 import 'package:first_app/pages/colomn.dart';
 import 'package:first_app/pages/home_page.dart';
@@ -23,13 +25,15 @@ class MyApp extends StatelessWidget {
       ),
       theme: ThemeData(primarySwatch: Colors.orange),
       routes: {
-        "/":(context) => LoginPage(),
+        "/": (context) => LoginPage(),
         "/home": (context) => HomePage(),
-        "/button":(context) => Button(),
-        "/col":(context) => colomn(),
-        "/scroll":(context)=>Scroll(),
-        "/list":(context) => List(),
-        "/dec":(context) => DecorationContainer(),
+        "/button": (context) => Button(),
+        "/col": (context) => colomn(),
+        "/scroll": (context) => Scroll(),
+        "/list": (context) => List(),
+        "/dec": (context) => DecorationContainer(),
+        "/exp": (context) => ExpendedWidget(),
+        "/lis": (context) => ListTil(),
       },
     );
   }

@@ -23,7 +23,9 @@ class List extends StatelessWidget {
       //   itemCount: arrNames.length,
       // ),
       ListView.separated(itemBuilder: (context,index){
-        return Text(arrNames[index], style: TextStyle(fontSize: 21),);
+        return
+
+          Text(arrNames[index], style: TextStyle(fontSize: 21),);
 
       },
 
