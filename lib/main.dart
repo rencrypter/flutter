@@ -1,4 +1,5 @@
 import 'package:first_app/pages/Button.dart';
+import 'package:first_app/pages/CircleImg.dart';
 import 'package:first_app/pages/Decoration.dart';
 import 'package:first_app/pages/ExpendedWidget.dart';
 import 'package:first_app/pages/ListTil.dart';
@@ -34,6 +35,7 @@ class MyApp extends StatelessWidget {
         "/dec": (context) => DecorationContainer(),
         "/exp": (context) => ExpendedWidget(),
         "/lis": (context) => ListTil(),
+        "/cir": (context) => CircleImg(),
       },
     );
   }
