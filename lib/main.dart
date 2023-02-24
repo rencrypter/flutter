@@ -1,4 +1,5 @@
 import 'package:first_app/pages/Button.dart';
+import 'package:first_app/pages/CallBackFunction.dart';
 import 'package:first_app/pages/CircleImg.dart';
 import 'package:first_app/pages/Decoration.dart';
 import 'package:first_app/pages/EditText.dart';
@@ -42,6 +43,7 @@ class MyApp extends StatelessWidget {
         "/fon": (context) => FontsExample(),
         "/txt": (context) => EditText(),
         "/g": (context) => Grid(),
+        "/call": (context) => CallBackFunction(),
       },
     );
   }
