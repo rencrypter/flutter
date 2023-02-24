@@ -4,6 +4,7 @@ import 'package:first_app/pages/Decoration.dart';
 import 'package:first_app/pages/EditText.dart';
 import 'package:first_app/pages/ExpendedWidget.dart';
 import 'package:first_app/pages/FontsExample.dart';
+import 'package:first_app/pages/Grid.dart';
 import 'package:first_app/pages/ListTil.dart';
 import 'package:first_app/pages/Scroll.dart';
 import 'package:first_app/pages/colomn.dart';
@@ -40,6 +41,7 @@ class MyApp extends StatelessWidget {
         "/cir": (context) => CircleImg(),
         "/fon": (context) => FontsExample(),
         "/txt": (context) => EditText(),
+        "/g": (context) => Grid(),
       },
     );
   }
