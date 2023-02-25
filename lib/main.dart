@@ -1,6 +1,7 @@
 import 'package:first_app/pages/Button.dart';
 import 'package:first_app/pages/CallBackFunction.dart';
 import 'package:first_app/pages/CircleImg.dart';
+import 'package:first_app/pages/CustomWidget.dart';
 import 'package:first_app/pages/Decoration.dart';
 import 'package:first_app/pages/EditText.dart';
 import 'package:first_app/pages/ExpendedWidget.dart';
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
       ),
       theme: ThemeData(primarySwatch: Colors.orange),
       routes: {
-        "/": (context) => LoginPage(),
+        "/": (context) => CustomWidget(),
         "/home": (context) => HomePage(),
         "/button": (context) => Button(),
         "/col": (context) => colomn(),
@@ -44,6 +45,7 @@ class MyApp extends StatelessWidget {
         "/txt": (context) => EditText(),
         "/g": (context) => Grid(),
         "/call": (context) => CallBackFunction(),
+        "/cus": (context) => CustomWidget(),
       },
     );
   }
